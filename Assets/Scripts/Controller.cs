@@ -16,7 +16,7 @@ public class Controller : MonoBehaviour
     {
         path = $"{Application.persistentDataPath}/Files/";
         //ground.GetComponent<MeshRenderer>().material.color = Color.green;
-        //addObject("https://storage.googleapis.com/lom/cube.glb");
+        addObject("https://storage.googleapis.com/lom/cube.glb", 1);
         
     }
 
